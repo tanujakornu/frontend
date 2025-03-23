@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Signup & Login</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- Left Top - Welcome Box -->
+      <div class="top-left">
+        <h1>Welcome</h1>
+        <p>Join us today and take control of your finances.</p>
+      </div>
+
+      <!-- Right Bottom - Form Box -->
+      <div class="bottom-right">
+        <h2>Sign Up</h2>
+        <p id="error" class="error-message"></p>
+
+        <form id="signupForm">
+          <input type="email" id="email" placeholder="Email" required />
+          <input
+            type="password"
+            id="password"
+            placeholder="Password"
+            required
+          />
+          <input
+            type="password"
+            id="confirmPassword"
+            placeholder="Confirm Password"
+            required
+          />
+          <button type="submit">Sign Up</button>
+        </form>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
